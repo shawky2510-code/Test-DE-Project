@@ -1,0 +1,4 @@
+run_id,compared,matched,mismatched,missing_in_vendor,missing_in_derived,match_rate
+RUN-2025A,3612,2448,1164,30,0,0.6777408637873754
+RUN-2025B,3605,2415,1190,37,0,0.6699029126213593
+RUN-2025C,3614,2413,1201,28,0,0.6676812396236856

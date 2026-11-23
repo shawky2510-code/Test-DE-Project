@@ -1,0 +1,8 @@
+pandas==3.0.*
+pyarrow>=17
+psycopg2-binary>=2.9
+sqlalchemy>=2.0
+nbformat
+nbclient
+ipykernel
+matplotlib

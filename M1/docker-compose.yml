@@ -1,0 +1,45 @@
+# docker compose up --build   -> PostgreSQL + Adminer + the pipeline (runs once, loads the warehouse)
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: marketsim
+      POSTGRES_PASSWORD: marketsim
+      POSTGRES_DB: marketsim
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U marketsim -d marketsim"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  adminer:
+    image: adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+  pipeline:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      PGHOST: postgres
+      PGPORT: "5432"
+      PGUSER: marketsim
+      PGPASSWORD: marketsim
+      PGDATABASE: marketsim
+      MARKETSIM_RAW: /app/data/raw/marketsim-pack-v1
+      MARKETSIM_OUT: /app/output
+    volumes:
+      - ./data:/app/data:ro
+      - ./output:/app/output
+    restart: "no"
+
+volumes:
+  pgdata:

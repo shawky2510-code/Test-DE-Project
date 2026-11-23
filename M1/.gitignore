@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+pgdata/
+*.pyc
+# output/ is committed on purpose: the curated canonical table and the rejects table are deliverables

@@ -1,0 +1,306 @@
+[
+  {
+    "run_id": "RUN-2025A",
+    "config_version": "1.4.0",
+    "created_at": "2025-07-02T08:00:00+02:00",
+    "seed": 8522640,
+    "window": {
+      "start": "2025-01-02",
+      "end": "2025-06-30"
+    },
+    "universe": {
+      "stocks": 30,
+      "index": {
+        "ticker": "INDEX",
+        "method": "cap_weighted",
+        "base_level": 1000
+      }
+    },
+    "parameters": {
+      "volatility": {
+        "sigma_annual": 0.18
+      },
+      "climate": {
+        "states": [
+          "calm",
+          "normal",
+          "stressed"
+        ],
+        "variance_multiplier": [
+          0.5,
+          1.0,
+          2.8
+        ],
+        "transition_matrix": [
+          [
+            0.97,
+            0.025,
+            0.005
+          ],
+          [
+            0.02,
+            0.96,
+            0.02
+          ],
+          [
+            0.01,
+            0.03,
+            0.96
+          ]
+        ]
+      },
+      "news_memory": {
+        "alpha": 0.03,
+        "beta": 0.8,
+        "gamma": 0.6
+      },
+      "intraday": {
+        "open_boost": 1.2,
+        "close_boost": 0.6
+      },
+      "shocks": {
+        "distribution": "student_t",
+        "df": 4
+      },
+      "jumps": {
+        "rate_per_day": 0.02
+      },
+      "factors": {
+        "market_weight": [
+          0.12,
+          0.22,
+          0.45
+        ],
+        "sector_share": 0.25
+      }
+    }
+  },
+  {
+    "run_id": "RUN-2025B",
+    "config_version": "1.4.1",
+    "created_at": "2025-07-02T08:00:00+02:00",
+    "seed": 7737823,
+    "window": {
+      "start": "2025-01-02",
+      "end": "2025-06-30"
+    },
+    "universe": {
+      "stocks": 30,
+      "index": {
+        "ticker": "INDEX",
+        "method": "cap_weighted",
+        "base_level": 1000
+      }
+    },
+    "parameters": {
+      "volatility": {
+        "sigma_annual": 0.18
+      },
+      "climate": {
+        "states": [
+          "calm",
+          "normal",
+          "stressed"
+        ],
+        "variance_multiplier": [
+          0.5,
+          1.0,
+          2.8
+        ],
+        "transition_matrix": [
+          [
+            0.97,
+            0.025,
+            0.005
+          ],
+          [
+            0.02,
+            0.96,
+            0.02
+          ],
+          [
+            0.01,
+            0.03,
+            0.96
+          ]
+        ]
+      },
+      "news_memory": {
+        "alpha": 0.33,
+        "beta": 0.8,
+        "gamma": 0.0
+      },
+      "intraday": {
+        "open_boost": 0.0,
+        "close_boost": 0.0
+      },
+      "shocks": {
+        "distribution": "student_t",
+        "df": 4
+      },
+      "jumps": {
+        "rate_per_day": 0.02
+      },
+      "factors": {
+        "market_weight": [
+          0.12,
+          0.22,
+          0.45
+        ],
+        "sector_share": 0.25
+      }
+    }
+  },
+  {
+    "run_id": "RUN-2025C",
+    "config_version": "1.4.0",
+    "created_at": "2025-07-02T08:00:00+02:00",
+    "seed": 8325121,
+    "window": {
+      "start": "2025-01-02",
+      "end": "2025-06-30"
+    },
+    "universe": {
+      "stocks": 30,
+      "index": {
+        "ticker": "INDEX",
+        "method": "cap_weighted",
+        "base_level": 1000
+      }
+    },
+    "parameters": {
+      "volatility": {
+        "sigma_annual": 18
+      },
+      "climate": {
+        "states": [
+          "calm",
+          "normal",
+          "stressed"
+        ],
+        "variance_multiplier": [
+          0.5,
+          1.0,
+          2.8
+        ],
+        "transition_matrix": [
+          [
+            0.95,
+            0.03,
+            0.02
+          ],
+          [
+            0.015,
+            0.955,
+            0.03
+          ],
+          [
+            0.005,
+            0.015,
+            0.98
+          ]
+        ]
+      },
+      "news_memory": {
+        "alpha": 0.03,
+        "beta": 0.8,
+        "gamma": 0.6
+      },
+      "intraday": {
+        "open_boost": 1.2,
+        "close_boost": 0.6
+      },
+      "shocks": {
+        "distribution": "student_t",
+        "df": 4
+      },
+      "jumps": {
+        "rate_per_day": 0.02
+      },
+      "factors": {
+        "market_weight": [
+          0.12,
+          0.22,
+          0.45
+        ],
+        "sector_share": 0.25
+      }
+    }
+  },
+  {
+    "run_id": "RUN-2025B",
+    "config_version": "1.4.1",
+    "created_at": "2025-07-03T11:20:00+02:00",
+    "seed": 7737823,
+    "window": {
+      "start": "2025-01-02",
+      "end": "2025-06-30"
+    },
+    "universe": {
+      "stocks": 30,
+      "index": {
+        "ticker": "INDEX",
+        "method": "cap_weighted",
+        "base_level": 1000
+      }
+    },
+    "parameters": {
+      "volatility": {
+        "sigma_annual": 0.18
+      },
+      "climate": {
+        "states": [
+          "calm",
+          "normal",
+          "stressed"
+        ],
+        "variance_multiplier": [
+          0.5,
+          1.0,
+          2.8
+        ],
+        "transition_matrix": [
+          [
+            0.97,
+            0.025,
+            0.005
+          ],
+          [
+            0.02,
+            0.96,
+            0.02
+          ],
+          [
+            0.01,
+            0.03,
+            0.96
+          ]
+        ]
+      },
+      "news_memory": {
+        "alpha": 0.33,
+        "beta": 0.8,
+        "gamma": 0.0
+      },
+      "intraday": {
+        "open_boost": 0.0,
+        "close_boost": 0.0
+      },
+      "shocks": {
+        "distribution": "student_t",
+        "df": 4
+      },
+      "jumps": {
+        "rate_per_day": 0.02
+      },
+      "factors": {
+        "market_weight": [
+          0.12,
+          0.22,
+          0.45
+        ],
+        "sector_share": 0.25
+      }
+    }
+  }
+]

@@ -1,0 +1,687 @@
+{
+  "exchange": "MarketSim",
+  "events": [
+    {
+      "event_id": "EV0001",
+      "type": "earnings",
+      "security": {
+        "ticker": "DALN"
+      },
+      "time": "2025-01-10T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0002",
+      "type": "earnings",
+      "security": {
+        "ticker": "BRIS"
+      },
+      "time": "2025-01-14T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0003",
+      "type": "earnings",
+      "security": {
+        "ticker": "SOLK"
+      },
+      "time": "2025-01-15T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0004",
+      "type": "earnings",
+      "security": {
+        "ticker": "XERN"
+      },
+      "time": "2025-01-24T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0005",
+      "type": "earnings",
+      "security": {
+        "ticker": "VALX"
+      },
+      "time": "2025-01-30T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0006",
+      "type": "earnings",
+      "security": {
+        "ticker": "UMBT"
+      },
+      "time": "2025-01-31T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0007",
+      "type": "earnings",
+      "security": {
+        "ticker": "ISTK"
+      },
+      "time": "2025-02-05T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0008",
+      "type": "earnings",
+      "security": {
+        "ticker": "WESB"
+      },
+      "time": "2025-02-05T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0009",
+      "type": "earnings",
+      "security": {
+        "ticker": "BELX"
+      },
+      "time": "2025-02-06T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0010",
+      "type": "earnings",
+      "security": {
+        "ticker": "JORV"
+      },
+      "time": "2025-02-12T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0011",
+      "type": "earnings",
+      "security": {
+        "ticker": "LUMX"
+      },
+      "time": "2025-02-12T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0012",
+      "type": "halt",
+      "security": {
+        "ticker": "GALR"
+      },
+      "time": "2025-02-12T11:00:00-05:00",
+      "details": {
+        "duration_minutes": 45
+      }
+    },
+    {
+      "event_id": "EV0013",
+      "type": "earnings",
+      "security": {
+        "ticker": "TAVV"
+      },
+      "time": "2025-02-13T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0014",
+      "type": "earnings",
+      "security": {
+        "ticker": "HALS"
+      },
+      "time": "2025-02-14T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0015",
+      "type": "earnings",
+      "security": {
+        "ticker": "ASTR"
+      },
+      "time": "2025-02-14T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0016",
+      "type": "earnings",
+      "security": {
+        "ticker": "CELK"
+      },
+      "time": "2025-02-14T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0017",
+      "type": "earnings",
+      "security": {
+        "ticker": "ZENM"
+      },
+      "time": "2025-02-21T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0018",
+      "type": "earnings",
+      "security": {
+        "ticker": "FENM"
+      },
+      "time": "2025-02-24T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0019",
+      "type": "earnings",
+      "security": {
+        "ticker": "ARVT"
+      },
+      "time": "2025-02-26T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0020",
+      "type": "earnings",
+      "security": {
+        "ticker": "ERTL"
+      },
+      "time": "2025-02-27T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0021",
+      "type": "earnings",
+      "security": {
+        "ticker": "DOVV"
+      },
+      "time": "2025-03-06T09:30:00-05:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0022",
+      "type": "earnings",
+      "security": {
+        "ticker": "PYRM"
+      },
+      "time": "2025-03-10T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0023",
+      "type": "earnings",
+      "security": {
+        "ticker": "ORBT"
+      },
+      "time": "2025-03-12T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0024",
+      "type": "earnings",
+      "security": {
+        "ticker": "GALR"
+      },
+      "time": "2025-03-17T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0025",
+      "type": "earnings",
+      "security": {
+        "ticker": "ROSS"
+      },
+      "time": "2025-03-19T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0026",
+      "type": "earnings",
+      "security": {
+        "ticker": "KELT"
+      },
+      "time": "2025-03-24T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0027",
+      "type": "earnings",
+      "security": {
+        "ticker": "YARL"
+      },
+      "time": "2025-03-24T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0028",
+      "type": "earnings",
+      "security": {
+        "ticker": "CORB"
+      },
+      "time": "2025-03-25T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0029",
+      "type": "earnings",
+      "security": {
+        "ticker": "MARB"
+      },
+      "time": "2025-03-25T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0030",
+      "type": "earnings",
+      "security": {
+        "ticker": "NOVN"
+      },
+      "time": "2025-03-28T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0031",
+      "type": "earnings",
+      "security": {
+        "ticker": "ORBL"
+      },
+      "time": "2025-03-28T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0032",
+      "type": "split",
+      "security": {
+        "ticker": "JORV"
+      },
+      "time": "2025-04-01T09:30:00-04:00",
+      "details": {
+        "ratio": "2:1"
+      }
+    },
+    {
+      "event_id": "EV0033",
+      "type": "earnings",
+      "security": {
+        "ticker": "ISTK"
+      },
+      "time": "2025-04-08T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0034",
+      "type": "earnings",
+      "security": {
+        "ticker": "JORV"
+      },
+      "time": "2025-04-11T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0035",
+      "type": "earnings",
+      "security": {
+        "ticker": "GALR"
+      },
+      "time": "2025-04-15T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0036",
+      "type": "earnings",
+      "security": {
+        "ticker": "SOLK"
+      },
+      "time": "2025-04-15T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0037",
+      "type": "earnings",
+      "security": {
+        "ticker": "BRIS"
+      },
+      "time": "2025-04-23T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0038",
+      "type": "earnings",
+      "security": {
+        "ticker": "LUMX"
+      },
+      "time": "2025-04-24T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0039",
+      "type": "earnings",
+      "security": {
+        "ticker": "HALS"
+      },
+      "time": "2025-04-28T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0040",
+      "type": "earnings",
+      "security": {
+        "ticker": "ORBX"
+      },
+      "time": "2025-04-30T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0041",
+      "type": "earnings",
+      "security": {
+        "ticker": "ROSS"
+      },
+      "time": "2025-04-30T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0042",
+      "type": "earnings",
+      "security": {
+        "ticker": "CORB"
+      },
+      "time": "2025-05-01T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0043",
+      "type": "earnings",
+      "security": {
+        "ticker": "ERTL"
+      },
+      "time": "2025-05-01T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0044",
+      "type": "earnings",
+      "security": {
+        "ticker": "PYRM"
+      },
+      "time": "2025-05-02T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0045",
+      "type": "earnings",
+      "security": {
+        "ticker": "VALX"
+      },
+      "time": "2025-05-13T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0046",
+      "type": "earnings",
+      "security": {
+        "ticker": "MARB"
+      },
+      "time": "2025-05-15T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0047",
+      "type": "earnings",
+      "security": {
+        "ticker": "KELT"
+      },
+      "time": "2025-05-19T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0048",
+      "type": "earnings",
+      "security": {
+        "ticker": "WESB"
+      },
+      "time": "2025-05-19T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0049",
+      "type": "earnings",
+      "security": {
+        "ticker": "BELX"
+      },
+      "time": "2025-05-23T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0050",
+      "type": "earnings",
+      "security": {
+        "ticker": "DALN"
+      },
+      "time": "2025-05-27T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0051",
+      "type": "earnings",
+      "security": {
+        "ticker": "NOVN"
+      },
+      "time": "2025-05-27T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0052",
+      "type": "earnings",
+      "security": {
+        "ticker": "CELK"
+      },
+      "time": "2025-05-27T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0053",
+      "type": "earnings",
+      "security": {
+        "ticker": "FENM"
+      },
+      "time": "2025-05-28T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0054",
+      "type": "earnings",
+      "security": {
+        "ticker": "TAVV"
+      },
+      "time": "2025-05-28T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0055",
+      "type": "earnings",
+      "security": {
+        "ticker": "YARL"
+      },
+      "time": "2025-05-30T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0056",
+      "type": "earnings",
+      "security": {
+        "ticker": "DOVV"
+      },
+      "time": "2025-06-02T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0057",
+      "type": "earnings",
+      "security": {
+        "ticker": "ZENM"
+      },
+      "time": "2025-06-03T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0058",
+      "type": "earnings",
+      "security": {
+        "ticker": "UMBT"
+      },
+      "time": "2025-06-09T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0059",
+      "type": "earnings",
+      "security": {
+        "ticker": "ARVT"
+      },
+      "time": "2025-06-11T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0060",
+      "type": "earnings",
+      "security": {
+        "ticker": "ORBL"
+      },
+      "time": "2025-06-12T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0061",
+      "type": "earnings",
+      "security": {
+        "ticker": "ASTR"
+      },
+      "time": "2025-06-13T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    },
+    {
+      "event_id": "EV0062",
+      "type": "earnings",
+      "security": {
+        "ticker": "XERN"
+      },
+      "time": "2025-06-18T09:30:00-04:00",
+      "details": {
+        "session": "pre_open"
+      }
+    }
+  ]
+}

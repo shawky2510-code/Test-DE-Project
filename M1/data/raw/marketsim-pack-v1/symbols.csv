@@ -1,0 +1,32 @@
+security_id,ticker,company_name,sector,listing_date,delisting_date,shares_outstanding
+SEC001,ARVT,Arvon Systems,Technology,2019-01-03,,772000000
+SEC002,BELX,Belia Capital,Financials,2020-02-03,,193000000
+SEC003,CORB,Coron Therapeutics,Healthcare,2021-03-03,,660000000
+SEC004,DALN,Dalia Energy,Energy,2022-04-03,,192000000
+SEC005,ERTL,Erton Industries,Industrials,2023-05-03,,141000000
+SEC006,FENM,Fenia Brands,Consumer,2019-06-03,,483000000
+SEC007,GALR,Galon Systems,Technology,2020-07-03,,118000000
+SEC008,HALS,Halia Capital,Financials,2021-08-03,,410000000
+SEC009,ISTK,Iston Therapeutics,Healthcare,2022-09-03,,320000000
+SEC010,JORV,Joria Energy,Energy,2023-10-03,,414000000
+SEC011,KELT,Kelon Industries,Industrials,2019-11-03,,551000000
+SEC012,LUMX,Lumia Brands,Consumer,2020-12-03,,412000000
+SEC013,MARB,Maron Systems,Information Technology,2021-01-03,,407000000
+SEC014,NOVN,Novia Capital,Financials,2022-02-03,,235000000
+SEC015,ORBL,Orbon Therapeutics,Healthcare,2023-03-03,,69000000
+SEC016,PYRM,Pyria Energy,Energy,2019-04-03,,360000000
+SEC017,ORBX,Quaon Industries,Industrials,2020-05-03,,725000000
+SEC018,ROSS,Rosia Brands,Consumer,2021-06-03,,41000000
+SEC019,SOLK,Solon Systems,Technology,2022-07-03,,421000000
+SEC020,TAVV,Tavia Capital,Financials,2023-08-03,,891000000
+SEC021,UMBT,Umbon Therapeutics,Healthcare,2019-09-03,,203000000
+SEC022,VALX,Valia Energy,Energy,2020-10-03,,705000000
+SEC023,WESB,Weson Industries,Industrials,2021-11-03,,72000000
+SEC024,XERN,Xeria Brands,Consumer,2022-12-03,,296000000
+SEC025,YARL,Yaron Systems,Technology,2023-01-03,2025-04-30,842000000
+SEC026,ZENM,Zenia Capital,Financials,2019-02-03,,462000000
+SEC027,ASTR,Aston Therapeutics,Healthcare,2020-03-03,,250000000
+SEC028,BRIS,Briia Energy,Energy,2021-04-03,,717000000
+SEC029,CELK,Celon Industries,Industrials,2025-03-03,,670000000
+SEC030,DOVV,Dovia Brands,Consumer,2025-05-12,,740000000
+SEC009,istk,ISTON THERAPEUTICS,Healthcare,2022-09-03,,320000000
